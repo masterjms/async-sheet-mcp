@@ -1,0 +1,14 @@
+# 비밀값 — 서비스 계정 키는 절대 저장소에 두지 않는다
+*.json
+!docs/*.json
+.env
+.env.*
+!.env.example
+
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
